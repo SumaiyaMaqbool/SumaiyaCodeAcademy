@@ -1,12 +1,42 @@
-i = 0
+"""i = 0
 count = 0 
 for i in range (0, 100):
     count = count +1
     i=i+1
-    print (i)
+    if (i%count == 0):
+        if ()
+    print (i)"""
    
-
-
+"""perfect_number=0
+count = 100
+divisor = []
+for perfect_number in range (1,count):       
+    if (perfect_number%count==0):
+        count = count +1
+        divisor.append(count)
+        perfect_number = perfect_number +1
+        count = count +1
+        if (sum(divisor)==perfect_number):
+            print (divisor)"""
+a = 100        
+c=[]
+s=0
+for i in range(1,a):
+    if(a%i==0):
+        c.append(i)
+        for i in c:
+            s+=i
+if(s==a):
+    print("perect")
+else:
+    print("not perfect")       
+         
+"""number_input= int(input("Enter a number "))
+count = 0
+while (True):
+    count = count +1
+    if(number_input%count==0):
+        print(number_input, " is divisable on ", count)"""
 
 
 
