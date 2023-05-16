@@ -33,3 +33,21 @@ y_max = max(y_coordintor)
 print("y max = ", y_max[0] )
 y_min = min(y_coordintor)
 print("y min = ", y_min[0])
+
+
+"""tuition = 10000
+increase_amount = float(5/100) 
+year = 1
+total_cost = 0
+for year in range(1,15):
+    tuition =float(tuition+(tuition * increase_amount))
+    for year in range (11):
+        print("In year: ", year, "the tution will be : $","{:0,.2f}".format(tuition))
+        year = year+1
+    for year in range (10,15):
+        total_cost = tuition + tuition 
+    print("The total tuition cost for four years after ten years will be :  $","{:0,.2f}".format(total_cost))
+
+    # year in range (11:15):
+        
+"""
