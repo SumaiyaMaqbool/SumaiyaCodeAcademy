@@ -7,7 +7,7 @@ class Stack:
         for i in range (len(expression)):
             if expression[i] == "^":
                 stackList.append(expression[i])
-                var[i-1][i+1]=(expression[i-1],expression[i+1])
+                #var[i-1][i+1]=(expression[i-1],expression[i+1])
                 print (stackList.pop(),expression[i-1],expression[i+1])                
                 #character.append(expression[i-1]expression[i+1])
             elif expression[i] =="*" or expression[i]=="/":
