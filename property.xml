@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<property>
+	<bathrooms>
+		<W> 1.0</W>
+		<L> 3.0</L>
+		<name> Bahroom 1 </name>
+		<price> 800</price> 
+	</bathrooms>
+	<bathrooms>
+		<W> 1.0</W>
+		<L> 3.0</L>
+		<name> Bahroom 2 </name>
+		<price> 600 </price> 
+	</bathrooms>
+	<bathrooms>
+		<W> 1.0</W>
+		<L> 3.0</L>
+		<name> Bahroom 3 </name>
+		<price> 1000</price> 
+	</bathrooms>
+
+</property>
